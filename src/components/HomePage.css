@@ -1,0 +1,15 @@
+.contentHome{
+	display: flex;
+	flex-direction: column;	
+}
+
+.homeInfo{
+	margin: 0px 0px 40px 0px;
+}
+.homeImg {
+	max-width: 600px;
+	max-height: 300px;
+	border-radius: 20px;
+   margin:0px 0px 0px 70px;
+	box-shadow: 12px 12px 2px 1px rgba(15, 15, 16, 0.2);
+}

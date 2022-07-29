@@ -1,0 +1,18 @@
+.containerContact{
+	display: flex;
+	align-items: center;
+
+}
+.containerContact div{
+	margin: 0px 70px 0px 0px;
+}
+.contact_info{
+	width: 240px;
+}
+
+.avatar{
+   max-width: 70px;
+}
+.icon{
+	width: 30px;
+}
