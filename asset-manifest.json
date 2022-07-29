@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_cursor_spa/static/css/main.4780cd0f.css",
+    "main.js": "/react_cursor_spa/static/js/main.eae5656d.js",
+    "static/js/787.ab8d593d.chunk.js": "/react_cursor_spa/static/js/787.ab8d593d.chunk.js",
+    "static/media/Checkmark.svg": "/react_cursor_spa/static/media/Checkmark.0718be5e029ba425346b1003dfe00644.svg",
+    "static/media/Comment.svg": "/react_cursor_spa/static/media/Comment.7abd8f5efcef8e6382a5585ac5f3227b.svg",
+    "static/media/Retweet.svg": "/react_cursor_spa/static/media/Retweet.0a74dee2bede1ee0bfeaefa2dac10c15.svg",
+    "static/media/Unknow.svg": "/react_cursor_spa/static/media/Unknow.b5d06af7f9fd6492a3a68a548f0b7dd6.svg",
+    "static/media/Male.svg": "/react_cursor_spa/static/media/Male.6341401073e65c4f4f10d35d33655644.svg",
+    "static/media/Female.svg": "/react_cursor_spa/static/media/Female.90a83ea364b80a55b7b5ca911bc03999.svg",
+    "static/media/Like.svg": "/react_cursor_spa/static/media/Like.78312a3fe5cb2221d3b4d11904af527e.svg",
+    "index.html": "/react_cursor_spa/index.html",
+    "static/media/Share.svg": "/react_cursor_spa/static/media/Share.a73abc70e5ec899f6fedd27d2b9f9445.svg",
+    "main.4780cd0f.css.map": "/react_cursor_spa/static/css/main.4780cd0f.css.map",
+    "main.eae5656d.js.map": "/react_cursor_spa/static/js/main.eae5656d.js.map",
+    "787.ab8d593d.chunk.js.map": "/react_cursor_spa/static/js/787.ab8d593d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4780cd0f.css",
+    "static/js/main.eae5656d.js"
+  ]
+}
