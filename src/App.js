@@ -1,9 +1,11 @@
 import { HashRouter } from "react-router-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom"
-import ContactsPage from "./components/ContactsPage";
-import HomePage from './components/HomePage';
-import PhotosPage from "./components/PhotosPage";
-import PostsPage from "./components/PostsPage";
+import { Route } from "react-router-dom"
+import ContactsPage from "./pages/ContactsPage";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import HomePage from './pages/HomePage';
+import PhotosPage from "./pages/PhotosPage";
+import PostsPage from "./pages/PostsPage";
 
 
 
@@ -12,12 +14,16 @@ function App() {
 	return (
 		<div className="App">
 			<HashRouter>
-				<Route path="/" exact component={HomePage} />
-				<Route path="/posts" component={PostsPage} />
-				<Route path="/photos" component={PhotosPage} />
-				<Route path="/contacts" component={ContactsPage} />
+				<div className="container">
+					<Header />
+					<Route path="/" exact component={HomePage} />
+					<Route path="/posts" component={PostsPage} />
+					<Route path="/photos" component={PhotosPage} />
+					<Route path="/contacts" component={ContactsPage} />
+					<Footer />
+				</div>
 			</HashRouter>
-		</div>
+		</div >
 	);
 }
 

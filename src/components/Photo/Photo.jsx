@@ -1,11 +1,11 @@
 import "./Photo.css"
 
 const Photo = ({
-	image
+	photos
 }) => {
 	return (
 		<div className="photo">
-			<img src={image} alt="photo_image" />
+			<img src={photos.photo} alt="photo_image" />
 		</div >
 	)
 

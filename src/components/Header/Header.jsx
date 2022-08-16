@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Nav from "./Nav";
+import Nav from "../Nav/Nav";
 import ReactLogo from "../../images/ReactLogo.png"
 import "./Header.css"
 

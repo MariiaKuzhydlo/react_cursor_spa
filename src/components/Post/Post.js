@@ -7,39 +7,33 @@ import { StyledPost } from "./Post.styled"
 
 
 const Post = ({
-	author,
-	content,
-	image,
-	comments,
-	retweet,
-	likes,
+	posts
 }) => {
-	const { photo, name, nickname } = author;
 
 	return (
 		<StyledPost>
 			<div className="author-info">
-				<img src={photo} alt={name} className="author-img" />
-				<span>{name}</span>
+				<img src={posts.authorPhoto} alt={posts.authorName} className="author-img" />
+				<span>{posts.authorName}</span>
 				<img src={Checkmark} alt="check-img" className="icon" />
-				<span>{nickname}</span>
+				<span>{posts.authorNick}</span>
 			</div>
 			<div className="main-info">
-				<p>{content}</p>
-				<img src={image} alt="post_img" className="main-img" />
+				<p>{posts.postText}</p>
+				<img src={posts.postImage} alt="post_img" className="main-img" />
 			</div>
 			<div className="post-reactions">
 				<div className="comments">
-					<img src={Comment} alt={comments} className="icon" />
-					<span>{comments}</span>
+					<img src={Comment} alt={posts.comments} className="icon" />
+					<span>{posts.comments}</span>
 				</div>
 				<div className="retweet">
-					<img src={Retweet} alt={retweet} className="icon" />
-					<span>{retweet}</span>
+					<img src={Retweet} alt={posts.retweet} className="icon" />
+					<span>{posts.retweet}</span>
 				</div>
 				<div className="likes">
-					<img src={Like} alt={likes} className="icon" />
-					<span>{likes}</span>
+					<img src={Like} alt={posts.likes} className="icon" />
+					<span>{posts.likes}</span>
 				</div>
 				<div className="share">
 					<img src={Share} alt="share-img" className="icon-share" />
